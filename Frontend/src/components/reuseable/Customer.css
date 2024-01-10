@@ -1,0 +1,23 @@
+.redButton {
+  background-color: #AA0000 !important;
+  border: 1px solid #AA0000 !important;
+}
+
+.redButton:hover {
+  background-color: red !important;
+  border: 1px solid red !important;
+}
+
+.greenButton {
+  background-color: #22AA22 !important;
+  border: 1px solid #22AA22 !important;
+}
+
+.greenButton:hover {
+  background-color: limegreen !important;
+  border: 1px solid limegreen !important;
+}
+
+.button {
+  margin-left: 20px;
+}

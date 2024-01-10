@@ -1,0 +1,30 @@
+name: Deploy Backend to Firebase
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  deploy-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+          working-directory: Backend/functions
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: Backend/functions
+
+      - name: Deploy to Firebase
+        uses: afgallo/deploy-firebase-functions@v1.1.0
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          DEPLOY_ONLY: functions
+          WORKING_DIRECTORY: ./Backend

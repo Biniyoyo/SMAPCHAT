@@ -1,0 +1,9 @@
+.left {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+.right {
+  flex: 0 0 25%;
+  max-width: 25%;
+}

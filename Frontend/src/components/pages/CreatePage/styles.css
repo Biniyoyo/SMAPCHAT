@@ -1,0 +1,36 @@
+.btn.button-default {
+  color: white;
+  background-color: #0c0d34 !important;
+  width: calc(100% - 32px);
+}
+
+.btn.button-default:hover {
+  color: white;
+  background-color: #0c4d34 !important;
+  width: calc(100% - 32px);
+}
+
+.btn.button-selected {
+  color: #0c0d34;
+  background-color: #ffffff !important;
+  border: 1px solid #0c0d34;
+  width: calc(100% - 32px);
+}
+
+.btn.button-selected:hover {
+  color: #0c0d34;
+  background-color: #ffffff !important;
+  border: 1px solid #0c0d34;
+  width: calc(100% - 32px);
+}
+
+.map-container {
+  height: calc(100%-200) !important;
+  width: 100% !important;
+  background-color: blue;
+}
+
+.btn.btn-edit-map {
+  background-color: white !important;
+  border-color: white !important;
+}

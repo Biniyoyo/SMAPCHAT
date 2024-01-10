@@ -1,0 +1,17 @@
+.leftE {
+  flex: 0 0 70%;
+  background-color: #0275d8;
+  height: 400px;
+}
+
+.container-fluid {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+}
+
+.rightE {
+  flex: 0 0 22%;
+  color: #fff;
+  height: 400px;
+}

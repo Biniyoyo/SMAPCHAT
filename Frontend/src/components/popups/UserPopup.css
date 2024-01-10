@@ -1,0 +1,12 @@
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,29 @@
+{
+  "MapID": "1234TEST1234",
+  "Category": [
+    {
+      "Name": "Red places",
+      "Locations": [
+        {
+          "Longitude": 40.7624,
+          "Lattitude": -73.9852
+        },
+        {
+          "Longitude": 40.59206,
+          "Lattitude": -74.1254
+        }
+      ],
+      "Color": "#222222"
+    },
+    {
+      "Name": "Blue places",
+      "Locations": [
+        {
+          "Longitude": -73.9654,
+          "Lattitude": 40.6653
+        }
+      ],
+      "Color": "#2222FF"
+    }
+  ]
+}

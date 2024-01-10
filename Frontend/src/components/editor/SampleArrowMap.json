@@ -1,0 +1,27 @@
+{
+  "MapID": "1234TEST1234",
+  "Maxpin": 5,
+  "Location": [
+    {
+      "Name": "Gershwin Theater",
+      "Longitude": -73.9852,
+      "Lattitude": 40.7624,
+      "Order": 1,
+      "Date": "11-10-2023"
+    },
+    {
+      "Name": "Time Square",
+      "Longitude": -73.9853,
+      "Lattitude": 40.7581,
+      "Order": 2,
+      "Date": "11-11-2023"
+    },
+    {
+      "Name": "MoMA",
+      "Longitude": -73.9776,
+      "Lattitude": 40.7615,
+      "Order": 3,
+      "Date": "11-11-2023"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.full-height-image {
+  height: calc(100vh - 150px) !important;
+  width: 100vw;
+  object-fit: cover;
+}

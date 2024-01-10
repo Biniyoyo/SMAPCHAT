@@ -1,0 +1,43 @@
+.body {
+  height: 100%;
+}
+.row {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.leftC {
+  flex: 0 0 22%;
+  background-color: white;
+}
+.container-fluid {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+}
+
+.middleC {
+  flex: 0 0 55%;
+}
+
+.rightC {
+  flex: 0 0 20%;
+  color: #000000;
+}
+
+.custom-button {
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px 25px;
+  text-transform: none;
+}
+
+.custom-button:hover {
+  background-color: white;
+  /* Background color on hover */
+  color: #000;
+  /* Text color on hover, change if you want a different color */
+}

@@ -1,0 +1,31 @@
+{
+  "MapID": "1234TEST1234",
+  "MinColor": "#FF0000",
+  "MaxColor": "#00FF00",
+  "Location": [
+    {
+      "Name": "Gershwin Theater",
+      "Longitude": -73.9852,
+      "Lattitude": 40.7624,
+      "Value": 100
+    },
+    {
+      "Name": "Time Square",
+      "Longitude": -73.9853,
+      "Lattitude": 40.7581,
+      "Value": 100
+    },
+    {
+      "Name": "MoMA",
+      "Longitude": -73.9776,
+      "Lattitude": 40.7615,
+      "Value": 100
+    },
+    {
+      "Name": "Dumbo",
+      "Longitude": -73.9654,
+      "Lattitude": 40.6653,
+      "Value": 0
+    }
+  ]
+}

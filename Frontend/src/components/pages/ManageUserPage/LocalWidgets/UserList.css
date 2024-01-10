@@ -1,0 +1,6 @@
+.white-rectangle {
+  background-color: white;
+  height: 200px !important;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}

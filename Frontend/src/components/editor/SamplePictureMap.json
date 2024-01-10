@@ -1,0 +1,18 @@
+{
+  "MapID": "1234TEST1234",
+  "Location": [
+    {
+      "Name": "New York",
+      "Library": [
+        {
+          "Name": "Sample Gallery",
+          "Images": [
+            "https://firebasestorage.googleapis.com/v0/b/smapchat-bc4cd.appspot.com/o/images%2FDALL%C2%B7E%202023-12-05%2022.19.50%20-%20An%20undecorated%20Christmas%20tree%2C%20resembling%20the%20shape%20and%20look%20of%20the%20previously%20generated%20decorated%20trees.%20This%20tree%20should%20have%20the%20same%20lush%20green%20fo.png?alt=media&token=1c19ddd2-904d-454f-b714-a4b331479589"
+          ]
+        }
+      ],
+      "Longitude": "-73.9776",
+      "Lattitude": "40.7615"
+    }
+  ]
+}

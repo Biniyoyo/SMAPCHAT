@@ -1,0 +1,15 @@
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  height: 500px;
+}
+
+.row {
+  width: 100%;
+}

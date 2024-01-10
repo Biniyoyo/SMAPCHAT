@@ -1,0 +1,37 @@
+.login-card {
+  background-color: white;
+  border-radius: 14px;
+}
+
+.login-title {
+  color: #0c0d34;
+  font-size: 32px;
+  font-weight: "900";
+}
+
+.login-form {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.login-btn {
+  width: 50%;
+  background-color: #4aceff !important;
+  padding: 6px !important;
+}
+
+.btn-2 {
+  background-color: #4aceff !important;
+  padding: 4px 20px !important;
+}
+
+.btn-secondary {
+  width: 80%;
+  font-size: 16px !important;
+  padding: 8px 16px;
+  background-color: transparent !important;
+  padding: 6px !important;
+  border: 1px solid white !important;
+  margin: auto;
+}

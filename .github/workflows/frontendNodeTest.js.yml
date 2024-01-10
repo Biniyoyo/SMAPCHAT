@@ -1,0 +1,40 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Frontend Cypress Tests
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # Run tests for frontend side
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3 # one of githubs pre-made tasks to set up Node.js
+        with:
+          node-version: ${{ matrix.node-version }} # pass the node version to install to the task
+          cache: "npm" # denotes we're using npm and should search the cache for npm packages as opposed to something like yarn
+          cache-dependency-path: Frontend/package-lock.json # where our package lock file is.
+          working-directory: Frontend # pass the working directory for these tests as the frontend subdirectory
+
+          # this runs the install script to load dependencies onto the runner instance
+          # then it starts the frontend server on the runner for the purpose of cypress e2e testing
+          # finally runs the test script described in package.json
+      - run: |
+          npm install
+          npm start &
+          npm test
+        working-directory: Frontend # pass the working directory for these tests as the frontend subdirectory

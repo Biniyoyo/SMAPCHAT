@@ -1,0 +1,9 @@
+.Container-fluid {
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.btn.cus-btn {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}

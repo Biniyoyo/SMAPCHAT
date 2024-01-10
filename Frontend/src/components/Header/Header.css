@@ -1,0 +1,17 @@
+.btn.transparent-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn.transparent-button:hover {
+  background-color: white;
+  color: #0c0d34;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}

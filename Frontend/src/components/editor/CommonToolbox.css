@@ -1,0 +1,51 @@
+.toolbox {
+  width: 400px;
+  margin: auto;
+}
+
+.toolscroller::-webkit-scrollbar {
+  display: none;
+}
+
+.toolscroller {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: calc(100vh - 450px);
+}
+
+.undoredo {
+  color: white;
+  margin: 10px;
+  width: 44%;
+}
+
+.inner {
+  margin: 10px;
+  width: 96%;
+}
+
+.invisibleInput {
+  width: 90%;
+  height: 25px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.invisibleButton {
+  width: 10%;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.smallCross {
+  border-radius: 2px;
+  color: white;
+  background-color: "#040488";
+  width: 10px;
+  height: 25px;
+}
